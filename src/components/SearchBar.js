@@ -155,6 +155,7 @@ class SearchBar extends React.Component<Props, State> {
               size={18}
             />
             <TextInput
+              underlineColorAndroid = 'rgba(0,0,0,0)'
               ref={ref => (this._input = ref)}
               style={[{ color: textColor }, styles.input]}
               value={value}
